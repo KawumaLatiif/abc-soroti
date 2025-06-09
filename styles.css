@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1F2A44;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+header .logo-container img {
+    height: 60px;
+    margin-right: 10px;
+}
+header .title-container {
+    text-align: left;
+    flex-grow: 1;
+}
+header .title-container h1, header .title-container h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.hero .slideshow {
+    display: flex;
+    width: 400%; /* 4 images */
+    animation: slide 28s infinite; /* 7s per image */
+}
+.hero .slide {
+    width: 25%; /* Each slide takes 1/4 of the container */
+    height: 500px; /* Reduced height to show all content without cropping, adjust based on your images */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.hero .slide:nth-child(1) { background-image: url('images/Unn_abc_student_leaders_2025.jpg'); }
+.hero .slide:nth-child(2) { background-image: url('images/projects.jpg'); }
+.hero .slide:nth-child(3) { background-image: url('images/news.jpg'); }
+.hero .slide:nth-child(4) { background-image: url('images/sun.jpg'); }
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    27% { transform: translateX(-25%); }
+    52% { transform: translateX(-25%); }
+    54% { transform: translateX(-50%); }
+    79% { transform: translateX(-50%); }
+    81% { transform: translateX(-75%); }
+    100% { transform: translateX(-75%); }
+}
+.hero .slide p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    line-height: 1.5;
+}
+.hero .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 20;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the arrow symbol */
+}
+.hero .nav-arrow.prev {
+    left: 20px;
+}
+.hero .nav-arrow.next {
+    right: 20px;
+}
+.hero .dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 20;
+}
+.hero .dot {
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.hero .dot.active {
+    background: white;
+}
+.hero .btn {
+    display: none; /* Remove Learn More button */
+}
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.news-grid, .projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.news-item, .project-item {
+    width: 45%; /* Adjusted to ensure two per row with gap */
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    border-radius: 10px; /* Curved edges */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
+}
+.news-item:hover, .project-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+}
+.news-thumbnail, .project-thumbnail {
+    width: 30%; /* Uniform thumbnail size */
+    height: 120px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure image fits without distortion */
+    margin-right: 15px;
+    border-radius: 8px; /* Curved edges for thumbnail */
+}
+.news-content, .project-content {
+    width: 70%; /* Uniform content area */
+    text-align: justify; /* Justified text */
+}
+.news-content h3, .project-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+.news-content p, .project-content p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
+.btn-view {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+footer {
+    background-color: #1F2A44;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer-section {
+    margin: 10px 0;
+    width: 30%;
+    text-align: left;
+}
+.footer-section h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.footer-section p, .footer-section a {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.social-icons img {
+    height: 20px;
+    margin: 0 5px;
+}
+footer .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+}
