@@ -159,6 +159,7 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    clear: both; /* Ensure footer stays below all content */
 }
 .footer-section {
     margin: 10px 0;
@@ -206,9 +207,11 @@ footer .copyright {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    overflow: hidden; /* Prevent content from overlapping footer */
 }
 .about-section, .sponsors-partners, .about-university {
     margin-bottom: 40px;
+    overflow: hidden; /* Ensure content stays within bounds */
 }
 .about-section h2, .sponsors-partners h2, .about-university h2 {
     color: #1F2A44;
@@ -220,6 +223,18 @@ footer .copyright {
     border-radius: 10px;
     float: right;
     margin-left: 20px;
+}
+.section-image-left {
+    max-width: 300px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    height: auto; /* Allow height to adjust with content */
+    max-height: 400px; /* Cap height to match typical text block height */
+}
+.text-content {
+    overflow: hidden; /* Clear float for text next to image */
+    padding-bottom: 20px; /* Ensure spacing before next section */
 }
 .mission-vision-motto {
     display: flex;
@@ -257,16 +272,8 @@ footer .copyright {
     margin-bottom: 10px;
 }
 .university-stats {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    display: none; /* Remove analytics/numbers */
 }
-.stat {
-    text-align: center;
-}
-.stat span {
-    display: block;
-    font-size: 1.5em;
-    color: #1F2A44;
-    font-weight: bold;
+.objectives {
+    clear: both; /* Ensure objectives start below floated image */
 }
