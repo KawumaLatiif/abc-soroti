@@ -109,15 +109,18 @@ nav a.active {
     padding: 0 10px;
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for projects */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for projects in index.html */
     gap: 20px;
     padding: 0 10px;
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%; /* Ensure full width within max-width */
+    width: 100%;
+    box-sizing: border-box;
 }
 .news-item, .project-item {
     display: flex;
@@ -126,7 +129,7 @@ nav a.active {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 100%; /* Ensure items fit within grid columns */
+    width: 100%;
 }
 .news-item:hover, .project-item:hover {
     transform: translateY(-5px);
@@ -348,17 +351,15 @@ footer .copyright {
     color: #666;
     font-size: 1.1em;
 }
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for projects */
+.project-cards-grid {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     padding: 0 10px;
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%; /* Ensure full width within max-width */
-    box-sizing: border-box; /* Include padding in width calculation */
 }
-.project-card {
+.project-card-detail {
     display: flex;
     background-color: white;
     border: 1px solid #ddd;
