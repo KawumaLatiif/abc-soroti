@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
 }
 header {
     background-color: #1F2A44;
@@ -185,4 +187,86 @@ footer .copyright {
     text-align: center;
     margin-top: 20px;
     font-size: 1em;
+}
+.about-header {
+    background-color: #1F2A44;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.about-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.about-header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.about-section, .sponsors-partners, .about-university {
+    margin-bottom: 40px;
+}
+.about-section h2, .sponsors-partners h2, .about-university h2 {
+    color: #1F2A44;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.section-image {
+    max-width: 300px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+}
+.mission-vision-motto {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+.card h3 {
+    color: #1F2A44;
+    margin-bottom: 10px;
+}
+.sponsor-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sponsor-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 20%;
+}
+.sponsor-card img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+.university-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.stat {
+    text-align: center;
+}
+.stat span {
+    display: block;
+    font-size: 1.5em;
+    color: #1F2A44;
+    font-weight: bold;
 }
