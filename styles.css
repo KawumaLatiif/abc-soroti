@@ -36,7 +36,7 @@ nav a {
     font-size: 1.3em;
 }
 nav a.active {
-    color: #FFD700; /* Highlight current page with gold */
+    color: #FFD700;
     font-weight: bold;
 }
 .hero {
@@ -49,12 +49,12 @@ nav a.active {
 }
 .hero .slideshow {
     display: flex;
-    width: 400%; /* 4 images */
-    animation: slide 28s infinite; /* 7s per image */
+    width: 400%;
+    animation: slide 28s infinite;
 }
 .hero .slide {
-    width: 25%; /* Each slide takes 1/4 of the container */
-    height: 500px; /* Reduced height to show all content without cropping, adjust based on your images */
+    width: 25%;
+    height: 500px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -92,7 +92,7 @@ nav a.active {
 }
 .hero .nav-arrow,
 .hero .dots {
-    display: none; /* Remove arrows and dots */
+    display: none;
 }
 .section {
     padding: 40px 20px;
@@ -102,35 +102,46 @@ nav a.active {
     margin-bottom: 20px;
     font-size: 2em;
 }
-.news-grid, .projects-grid {
-    display: flex;
-    justify-content: center;
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for news */
     gap: 20px;
-    flex-wrap: wrap;
+    padding: 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for projects */
+    gap: 20px;
+    padding: 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; /* Ensure full width within max-width */
 }
 .news-item, .project-item {
-    width: 45%; /* Adjusted to ensure two per row with gap */
     display: flex;
     border: 1px solid #ddd;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
-    border-radius: 10px; /* Curved edges */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Ensure items fit within grid columns */
 }
 .news-item:hover, .project-item:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 .news-thumbnail, .project-thumbnail {
-    width: 30%; /* Uniform thumbnail size */
-    height: 120px; /* Fixed height for uniformity */
-    object-fit: cover; /* Ensure image fits without distortion */
+    width: 30%;
+    height: 120px;
+    object-fit: cover;
     margin-right: 15px;
-    border-radius: 8px; /* Curved edges for thumbnail */
+    border-radius: 8px;
 }
 .news-content, .project-content {
-    width: 70%; /* Uniform content area */
-    text-align: justify; /* Justified text */
+    width: 70%;
+    text-align: justify;
 }
 .news-content h3, .project-content h3 {
     margin: 0 0 10px 0;
@@ -143,7 +154,7 @@ nav a.active {
     line-height: 1.5;
 }
 .btn-view {
-    background-color: #1F2A44; /* Match header and footer color */
+    background-color: #1F2A44;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -159,7 +170,7 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    clear: both; /* Ensure footer stays below all content */
+    clear: both;
 }
 .footer-section {
     margin: 10px 0;
@@ -207,11 +218,11 @@ footer .copyright {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    overflow: hidden; /* Prevent content from overlapping footer */
+    overflow: hidden;
 }
 .about-section, .sponsors-partners, .about-university {
     margin-bottom: 40px;
-    overflow: hidden; /* Ensure content stays within bounds */
+    overflow: hidden;
 }
 .about-section h2, .sponsors-partners h2, .about-university h2 {
     color: #1F2A44;
@@ -229,12 +240,12 @@ footer .copyright {
     border-radius: 10px;
     float: left;
     margin-right: 20px;
-    height: auto; /* Allow height to adjust with content */
-    max-height: 400px; /* Cap height to match typical text block height */
+    height: auto;
+    max-height: 400px;
 }
 .text-content {
-    overflow: hidden; /* Clear float for text next to image */
-    padding-bottom: 20px; /* Ensure spacing before next section */
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 .mission-vision-motto {
     display: flex;
@@ -272,8 +283,123 @@ footer .copyright {
     margin-bottom: 10px;
 }
 .university-stats {
-    display: none; /* Remove analytics/numbers */
+    display: none;
 }
 .objectives {
-    clear: both; /* Ensure objectives start below floated image */
+    clear: both;
+}
+.projects-banner {
+    background-color: #1F2A44;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+.projects-banner h1 {
+    margin: 0;
+    font-size: 3em;
+}
+.projects-banner p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+.projects-tabs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tab-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #E6ECEF;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.tab-button.active {
+    background-color: #1F2A44;
+    color: white;
+}
+.tab-content {
+    display: block;
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
+.edition-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.edition-header h2 {
+    color: #1F2A44;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.edition-header p {
+    color: #666;
+    font-size: 1.1em;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for projects */
+    gap: 20px;
+    padding: 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; /* Ensure full width within max-width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+.project-card {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.project-image {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+}
+.project-details {
+    width: 60%;
+    padding: 15px;
+}
+.project-details h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #1F2A44;
+}
+.project-details p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+.status.completed {
+    background-color: #28A745;
+    color: white;
+}
+.status.ongoing {
+    background-color: #007BFF;
+    color: white;
 }
