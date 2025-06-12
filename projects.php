@@ -1,0 +1,123 @@
+<?php include 'partials/header.php'; ?>
+
+<section class="projects-banner">
+    <h1>Our Projects</h1>
+    <p>Innovative solutions addressing real-world challenges in our communities</p>
+</section>
+<div class="projects-tabs">
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab('2025')">2025 Edition</button>
+        <button class="tab-button" onclick="openTab('2024')">2024 Edition</button>
+    </div>
+    <div class="tab-content">
+        <div id="2025" class="tab-pane active">
+            <div class="edition-header">
+                <h2>2025 Projects - Ongoing Initiatives</h2>
+                <p>Our 2025 edition features four ongoing projects aimed at tackling critical agricultural and community challenges with innovative solutions.</p>
+            </div>
+            <div class="project-cards-grid">
+                <div class="project-card-detail">
+                    <img src="images/project1.jpg" alt="Cashew Processing" class="project-image">
+                    <div class="project-details">
+                        <h3>Removal of Astringent Taste from Cashew Nuts</h3>
+                        <p><strong>Challenge:</strong> Enhancing the market value and consumer appeal of cashew nuts by eliminating their natural astringent taste, a common barrier to consumption.</p>
+                        <p><strong>Solution:</strong> Developed advanced processing techniques, including heat treatment and natural enzyme applications, to remove astringency while preserving nutritional value.</p>
+                        <p><strong>Impact:</strong> Improved market acceptance by 50% and increased local farmer income by 20%. Aimed at scaling production for export markets.</p>
+                        <p><strong>Duration:</strong> January 2025 - December 2025</p>
+                        <p><strong>Team:</strong> Grace, Joab, Rachel, Jeremiah, Leticia</p>
+                        <span class="status ongoing">Ongoing</span>
+                    </div>
+                </div>
+                <div class="project-card-detail">
+                    <img src="images/projects2.jpg" alt="Land Analysis" class="project-image">
+                    <div class="project-details">
+                        <h3>Land Suitability Analysis for Oil Palm and Cassava</h3>
+                        <p><strong>Challenge:</strong> Identifying optimal land for oil palm and cassava cultivation to maximize agricultural productivity and support farmer livelihoods.</p>
+                        <p><strong>Solution:</strong> Implemented GIS-based mapping and soil analysis to determine suitable regions, providing detailed reports to farmers and agricultural cooperatives.</p>
+                        <p><strong>Impact:</strong> Enabled 300 farmers to optimize land use, increasing yields by 30%. Supports sustainable land management practices.</p>
+                        <p><strong>Duration:</strong> February 2025 - November 2025</p>
+                        <p><strong>Team:</strong> Latiif, Ruth, Ferro, Favour, Jorge, Merab</p>
+                        <span class="status ongoing">Ongoing</span>
+                    </div>
+                </div>
+                <div class="project-card-detail">
+                    <img src="images/project3.jpg" alt="Maize and Soybean Yield" class="project-image">
+                    <div class="project-details">
+                        <h3>Improving Maize and Soybean Quantities in Angonia</h3>
+                        <p><strong>Challenge:</strong> Enhancing the supply of maize and soybean to meet the demand of the local feed processing factory in Angonia.</p>
+                        <p><strong>Solution:</strong> Introduced high-yield seed varieties and modern farming techniques, coupled with training programs for 150 farmers.</p>
+                        <p><strong>Impact:</strong> Increased production by 40% and strengthened the local food supply chain. Aimed at reducing import dependency.</p>
+                        <p><strong>Duration:</strong> March 2025 - October 2025</p>
+                        <p><strong>Team:</strong> Simon, Felicia, Felix, Jacklin</p>
+                        <span class="status ongoing">Ongoing</span>
+                    </div>
+                </div>
+                <div class="project-card-detail">
+                    <img src="images/project4.jpg" alt="Livestock Feed" class="project-image">
+                    <div class="project-details">
+                        <h3>Promoting Livestock Feed Production in Angonia</h3>
+                        <p><strong>Challenge:</strong> Addressing the scarcity of natural pasture grasses, especially during summer when grazing lands are limited.</p>
+                        <p><strong>Solution:</strong> Developed a conservation program using drought-resistant forage crops and storage techniques for year-round feed availability.</p>
+                        <p><strong>Impact:</strong> Reduced livestock mortality by 15% and improved milk production by 25% for 200 herders.</p>
+                        <p><strong>Duration:</strong> April 2025 - December 2025</p>
+                        <p><strong>Team:</strong> Chelsea, Bedan, Specioza, James</p>
+                        <span class="status ongoing">Ongoing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="2024" class="tab-pane">
+            <div class="edition-header">
+                <h2>2024 Projects - Completed Initiatives</h2>
+                <p>Our 2024 edition completed three major projects, each designed to meet community needs and demonstrate measurable impact.</p>
+            </div>
+            <div class="project-cards-grid">
+                <div class="project-card-detail">
+                    <img src="images/project_dummy1.jpg" alt="Sustainable Irrigation" class="project-image">
+                    <div class="project-details">
+                        <h3>Sustainable Irrigation Systems</h3>
+                        <p><strong>Challenge:</strong> Addressing water scarcity and improving irrigation efficiency for small-scale farmers in arid regions to enhance crop production.</p>
+                        <p><strong>Solution:</strong> Developed a low-cost, solar-powered drip irrigation system integrated with IoT sensors for real-time water usage monitoring and optimization.</p>
+                        <p><strong>Impact:</strong> Increased crop yields by 40% and reduced water usage by 30% for over 500 farmers. Enabled sustainable farming practices in drought-prone areas.</p>
+                        <p><strong>Duration:</strong> March 2024 - October 2024</p>
+                        <p><strong>Team:</strong> John Doe, Jane Smith, Ali Omar</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+                <div class="project-card-detail">
+                    <img src="images/project_dummy2.jpg" alt="Crop Rotation Study" class="project-image">
+                    <div class="project-details">
+                        <h3>Crop Rotation Study</h3>
+                        <p><strong>Challenge:</strong> Improving soil health and crop diversity to sustain agricultural productivity in diverse landscapes.</p>
+                        <p><strong>Solution:</strong> Conducted a comprehensive study on crop rotation patterns, introducing legumes to replenish soil nutrients and reduce pest prevalence.</p>
+                        <p><strong>Impact:</strong> Enhanced soil fertility by 25% and increased overall yield by 15% across 200 hectares. Promoted eco-friendly farming techniques.</p>
+                        <p><strong>Duration:</strong> April 2024 - November 2024</p>
+                        <p><strong>Team:</strong> Maria Gonzalez, Peter Kim, Sarah Lee</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include 'partials/footer.php'; ?>
+
+<script>
+    function openTab(tabName) {
+        var i, tabpanes, tabbuttons;
+        tabpanes = document.getElementsByClassName("tab-pane");
+        for (i = 0; i < tabpanes.length; i++) {
+            tabpanes[i].style.display = "none";
+        }
+        tabbuttons = document.getElementsByClassName("tab-button");
+        for (i = 0; i < tabbuttons.length; i++) {
+            tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        event.currentTarget.className += " active";
+    }
+    // Load 2025 tab by default
+    document.getElementById("2025").style.display = "block";
+</script>
+</body>
