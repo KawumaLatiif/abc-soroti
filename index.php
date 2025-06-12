@@ -40,6 +40,7 @@
             </div>
         </div>
     </div>
+    <a href="news.php" class="btn-view">View all news</a>
 </section>
 <section class="section">
     <h2>Latest Projects</h2>
@@ -80,3 +81,4 @@
 
 <script src="script.js"></script>
 </body>
+</html>

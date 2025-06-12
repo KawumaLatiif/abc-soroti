@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC BlendED - <?php echo basename($_SERVER['PHP_SELF'], '.php'); ?></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 <header>
     <div class="logo-container">
         <img src="images/sun_badge.jpeg" alt="SUN Logo">
@@ -15,7 +24,8 @@
             'about.php' => 'About',
             'projects.php' => 'Projects',
             'team.php' => 'Team',
-            'contact.php' => 'Contact'
+            'contact.php' => 'Contact',
+            'news.php' => 'News'
         ];
         foreach ($pages as $file => $title) {
             $active = ($current_page == $file) ? 'class="active"' : '';

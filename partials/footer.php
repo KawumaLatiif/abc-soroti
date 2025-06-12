@@ -16,7 +16,7 @@
         <a href="index.php">Home</a>
         <a href="projects.php">Projects</a>
         <a href="team.php">Team</a>
-        <a href="#">Events</a>
+        <a href="news.php">News</a>
         <a href="about.php">About Us</a>
     </div>
     <div class="copyright">
