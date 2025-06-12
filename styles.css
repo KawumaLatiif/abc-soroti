@@ -81,7 +81,7 @@ nav a.active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(31, 42, 68, 0.7); /*Translucent version of #1F2A44 with 70% opacity*/
     padding: 15px 25px;
     border-radius: 5px;
     font-size: 1.2em;
