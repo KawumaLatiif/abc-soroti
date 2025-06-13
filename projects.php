@@ -19,7 +19,7 @@
                 <div class="project-card-detail">
                     <img src="images/project1.jpg" alt="Cashew Processing" class="project-image">
                     <div class="project-details">
-                        <h3>Removal of Astringent Taste from Cashew Nuts</h3>
+                        <h3>Removal of Astringent Taste from Cashew Nuts (Nigeria)</h3>
                         <p><strong>Challenge:</strong> Enhancing the market value and consumer appeal of cashew nuts by eliminating their natural astringent taste, a common barrier to consumption.</p>
                         <p><strong>Solution:</strong> Developed advanced processing techniques, including heat treatment and natural enzyme applications, to remove astringency while preserving nutritional value.</p>
                         <p><strong>Impact:</strong> Improved market acceptance by 50% and increased local farmer income by 20%. Aimed at scaling production for export markets.</p>
@@ -31,7 +31,7 @@
                 <div class="project-card-detail">
                     <img src="images/projects2.jpg" alt="Land Analysis" class="project-image">
                     <div class="project-details">
-                        <h3>Land Suitability Analysis for Oil Palm and Cassava</h3>
+                        <h3>Land Suitability Analysis for Oil Palm and Cassava (Nigeria)</h3>
                         <p><strong>Challenge:</strong> Identifying optimal land for oil palm and cassava cultivation to maximize agricultural productivity and support farmer livelihoods.</p>
                         <p><strong>Solution:</strong> Implemented GIS-based mapping and soil analysis to determine suitable regions, providing detailed reports to farmers and agricultural cooperatives.</p>
                         <p><strong>Impact:</strong> Enabled 300 farmers to optimize land use, increasing yields by 30%. Supports sustainable land management practices.</p>
@@ -43,7 +43,7 @@
                 <div class="project-card-detail">
                     <img src="images/project3.jpg" alt="Maize and Soybean Yield" class="project-image">
                     <div class="project-details">
-                        <h3>Improving Maize and Soybean Quantities in Angonia</h3>
+                        <h3>Improving Maize and Soybean Quantities in Angonia (Mozambique)</h3>
                         <p><strong>Challenge:</strong> Enhancing the supply of maize and soybean to meet the demand of the local feed processing factory in Angonia.</p>
                         <p><strong>Solution:</strong> Introduced high-yield seed varieties and modern farming techniques, coupled with training programs for 150 farmers.</p>
                         <p><strong>Impact:</strong> Increased production by 40% and strengthened the local food supply chain. Aimed at reducing import dependency.</p>
@@ -55,7 +55,7 @@
                 <div class="project-card-detail">
                     <img src="images/project4.jpg" alt="Livestock Feed" class="project-image">
                     <div class="project-details">
-                        <h3>Promoting Livestock Feed Production in Angonia</h3>
+                        <h3>Promoting Livestock Feed Production in Angonia (Mozambique)</h3>
                         <p><strong>Challenge:</strong> Addressing the scarcity of natural pasture grasses, especially during summer when grazing lands are limited.</p>
                         <p><strong>Solution:</strong> Developed a conservation program using drought-resistant forage crops and storage techniques for year-round feed availability.</p>
                         <p><strong>Impact:</strong> Reduced livestock mortality by 15% and improved milk production by 25% for 200 herders.</p>
@@ -85,13 +85,13 @@
                     </div>
                 </div>
                 <div class="project-card-detail">
-                    <img src="images/project_dummy2.jpg" alt="Waste Management for Zulinkx Agro & Vet Services" class="project-image">
+                    <img src="images/waste.jpg" alt="Waste Management for Zulinkx Agro & Vet Services" class="project-image">
                     <div class="project-details">
                         <h3>Waste Management for Zulinkx Agro & Vet Services (Nigeria)</h3>
                         <p><strong>Challenge:</strong> Zulinkx Agro & Vet Services in Nigeria needed effective solutions for waste management and odor control, which are critical for sustainable agricultural operations.</p>
                         <p><strong>Solution:</strong> The team proposed the use of bio-char for waste management and odor control, providing an environmentally friendly and practical approach to handling agricultural waste.</p>
                         <p><strong>Impact:</strong> The bio-char solution improved waste management and reduced odors, benefiting local agricultural businesses and the broader community. Team members contributed through research, solution design, and collaborative problem-solving.</p>
-                        <p><strong>Duration:</strong> 2024</p>
+                        <p><strong>Duration:</strong> May 18, 2024 - July 2024</p>
                         <p><strong>Team:</strong> Kusiima Teddy (Soroti University, Uganda), Chukwuka Anthony Anigbogu (University of Nigeria, Nsukka), Maimuna Lucia Manuel (Zambeze University, Mozambique), Agostinho Filipe Guambe (Eduardo Mondlane University, Mozambique), Ismael Kisuule (Makerere University, Uganda), AbdulWaheed Ayuba (Federal University of Technology, Nigeria)</p>
                         <span class="status completed">Completed</span>
                     </div>
