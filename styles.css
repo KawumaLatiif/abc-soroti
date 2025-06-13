@@ -544,3 +544,68 @@ footer .copyright {
     font-size: 0.9em;
     color: #666;
 }
+.contact-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact-section h2 {
+    color: #1F2A44;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.contact-section p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-form, .contact-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 88%;
+}
+.contact-form p {
+    margin-bottom: 15px;
+    color: #666;
+}
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #1F2A44;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    resize: vertical;
+}
+.contact-details h3 {
+    color: #1F2A44;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.contact-details p {
+    margin: 10px 0;
+    color: #666;
+}
+.contact-details a {
+    color: #1F2A44;
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+}

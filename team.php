@@ -23,37 +23,37 @@
     <h2>Current Team Members</h2>
     <div class="team-grid">
         <div class="team-card">
-            <img src="images/sarah_nakato.jpg" alt="Dr. Sarah Nakato" class="team-photo">
+            <img src="images/hellen.jpg" alt="Dr. Hellen Aluku" class="team-photo">
             <h3>Dr. Hellen Aluku</h3>
             <p><strong>Program Director</strong><br>PhD Civil Engineering</p>
             <p>Leading education with 15+ years experience in blended learning and community development.</p>
         </div>
         <div class="team-card">
-            <img src="images/michael_ojok.jpg" alt="Prof. Michael Ojok" class="team-photo">
+            <img src="images/musa.png" alt="Dr. Musa" class="team-photo">
             <h3>Dr. Musa Satya Chemisto</h3>
             <p><strong>Research Coordinator</strong><br>PhD Computer Engineering</p>
             <p>Expert in Human Computer Interaction.</p>
         </div>
         <div class="team-card">
-            <img src="images/latiif.jpg" alt="latiif" class="team-photo">
+            <img src="images/latif.jpg" alt="latiif" class="team-photo">
             <h3>Latiif Kawuma</h3>
-            <p><strong>Student</strong><br>BENG Computer Electronics and Computer Engineering</p>
+            <p><strong>Student</strong><br>BENG Electronics and Computer Engineering</p>
             <p>Passionate about agricultural technology and solutions for farmers.</p>
         </div>
         <div class="team-card">
-            <img src="images/mary_akello.jpg" alt="Mary Akello" class="team-photo">
+            <img src="images/rachel.jpg" alt="rachel" class="team-photo">
             <h3>Anirwoth Rachel</h3>
             <p><strong>Student</strong><br>BENG Electronics and Computer Engineering</p>
             <p>Developing to improve farming practices through innovative technology.</p>
         </div>
         <div class="team-card">
-            <img src="images/grace_adima.jpg" alt="Grace Adima" class="team-photo">
+            <img src="images/simon.jpg" alt="Simon" class="team-photo">
             <h3>Simon Peter Isabirye</h3>
             <p><strong>Student</strong><br>BENG Electronics and Computer Engineering</p>
             <p>Working to enhance healthcare delivery in rural communities through mobile technology.</p>
         </div>
         <div class="team-card">
-            <img src="images/david_ocheng.jpg" alt="David Ocheng" class="team-photo">
+            <img src="images/speci.jpg" alt="speci" class="team-photo">
             <h3>Specioza Chelangat</h3>
             <p><strong>Student</strong><br>BENG Electronics and Computer Engineering</p>
             <p>Creating web-based applications for community impact.</p>
@@ -65,13 +65,13 @@
     <h2>Our Alumni</h2>
     <p>Our graduates continue to make significant impact in their communities and beyond, applying the skills and knowledge gained through the ABC BlendEd program.</p>
     <div class="alumni-grid">
-        <div class="alumni-card">
-            <img src="images/peter_egau.jpg" alt="Peter Egau" class="alumni-photo">
+        <div class="team-card">
+            <img src="images/bongo.png" alt="Bongo" class="alumni-photo">
             <h3>Joshua Bongo</h3>
             <p><strong>Electronics and Computer Engineer</strong><br>Graduated 2025</p>
             <p>Alumnus who revolutionized foundational health records, now working on rural connectivity startup focusing on rural connectivity.</p>
         </div>
-        <div class="alumni-card">
+        <div class="team-card">
             <p><strong>Teddy Kusiima</strong><br>Electronics and Computer Engineer</p>
             <p>Led the mobile inclusion project, now developing digital banking solutions.</p>
             <p><strong>Achievement:</strong><br>Notable achievement: 10,000+ customers.</p>

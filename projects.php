@@ -69,30 +69,30 @@
         <div id="2024" class="tab-pane">
             <div class="edition-header">
                 <h2>2024 Projects - Completed Initiatives</h2>
-                <p>Our 2024 edition completed three major projects, each designed to meet community needs and demonstrate measurable impact.</p>
+                <p>Our 2024 edition completed two major projects, each designed to meet community needs and demonstrate measurable impact.</p>
             </div>
             <div class="project-cards-grid">
                 <div class="project-card-detail">
-                    <img src="images/project_dummy1.jpg" alt="Sustainable Irrigation" class="project-image">
+                    <img src="images/seed_bank.png" alt="Community Seed Bank Mobile Application" class="project-image">
                     <div class="project-details">
-                        <h3>Sustainable Irrigation Systems</h3>
-                        <p><strong>Challenge:</strong> Addressing water scarcity and improving irrigation efficiency for small-scale farmers in arid regions to enhance crop production.</p>
-                        <p><strong>Solution:</strong> Developed a low-cost, solar-powered drip irrigation system integrated with IoT sensors for real-time water usage monitoring and optimization.</p>
-                        <p><strong>Impact:</strong> Increased crop yields by 40% and reduced water usage by 30% for over 500 farmers. Enabled sustainable farming practices in drought-prone areas.</p>
-                        <p><strong>Duration:</strong> March 2024 - October 2024</p>
-                        <p><strong>Team:</strong> John Doe, Jane Smith, Ali Omar</p>
+                        <h3>Community Seed Bank Mobile Application (Mozambique)</h3>
+                        <p><strong>Challenge:</strong> The Mozambique Agricultural Research Institute (IIAM) in Tete Province faced difficulties in ensuring the availability and management of certified seeds for local farmers. The lack of an efficient system hindered seed distribution, record keeping, and yield prediction.</p>
+                        <p><strong>Solution:</strong> The team developed a prototype for a Community Seed Bank Mobile Application and a supporting project website. The app included features for yield prediction, record keeping, and monitoring seed distribution, tailored to the needs of the local community.</p>
+                        <p><strong>Impact:</strong> The solution enhanced seed management efficiency, improved access to certified seeds, and strengthened local agricultural practices. Team members gained technical skills (web and app development), experience in international collaboration, and exposure to real-world agricultural challenges.</p>
+                        <p><strong>Duration:</strong> May 20, 2024 - August 2024</p>
+                        <p><strong>Team:</strong> Bongo Joshua (Soroti University, Uganda), Monge Macklyne (Makerere University, Uganda), Osvaldo Paulo Pessuro (Zambeze University, Mozambique), Onuchukwu Goodness (University of Nigeria Nsukka, Nigeria), Marcelo Márcia Mucache (Eduardo Mondlane University, Mozambique), Napoleon Glory (Federal University of Technology Minna, Nigeria)</p>
                         <span class="status completed">Completed</span>
                     </div>
                 </div>
                 <div class="project-card-detail">
-                    <img src="images/project_dummy2.jpg" alt="Crop Rotation Study" class="project-image">
+                    <img src="images/project_dummy2.jpg" alt="Waste Management for Zulinkx Agro & Vet Services" class="project-image">
                     <div class="project-details">
-                        <h3>Crop Rotation Study</h3>
-                        <p><strong>Challenge:</strong> Improving soil health and crop diversity to sustain agricultural productivity in diverse landscapes.</p>
-                        <p><strong>Solution:</strong> Conducted a comprehensive study on crop rotation patterns, introducing legumes to replenish soil nutrients and reduce pest prevalence.</p>
-                        <p><strong>Impact:</strong> Enhanced soil fertility by 25% and increased overall yield by 15% across 200 hectares. Promoted eco-friendly farming techniques.</p>
-                        <p><strong>Duration:</strong> April 2024 - November 2024</p>
-                        <p><strong>Team:</strong> Maria Gonzalez, Peter Kim, Sarah Lee</p>
+                        <h3>Waste Management for Zulinkx Agro & Vet Services (Nigeria)</h3>
+                        <p><strong>Challenge:</strong> Zulinkx Agro & Vet Services in Nigeria needed effective solutions for waste management and odor control, which are critical for sustainable agricultural operations.</p>
+                        <p><strong>Solution:</strong> The team proposed the use of bio-char for waste management and odor control, providing an environmentally friendly and practical approach to handling agricultural waste.</p>
+                        <p><strong>Impact:</strong> The bio-char solution improved waste management and reduced odors, benefiting local agricultural businesses and the broader community. Team members contributed through research, solution design, and collaborative problem-solving.</p>
+                        <p><strong>Duration:</strong> 2024</p>
+                        <p><strong>Team:</strong> Kusiima Teddy (Soroti University, Uganda), Chukwuka Anthony Anigbogu (University of Nigeria, Nsukka), Maimuna Lucia Manuel (Zambeze University, Mozambique), Agostinho Filipe Guambe (Eduardo Mondlane University, Mozambique), Ismael Kisuule (Makerere University, Uganda), AbdulWaheed Ayuba (Federal University of Technology, Nigeria)</p>
                         <span class="status completed">Completed</span>
                     </div>
                 </div>
