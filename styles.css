@@ -24,20 +24,28 @@ header .logo-container img {
 header .title-container {
     text-align: left;
     flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
-header .title-container h1, header .title-container h2 {
+header .title-container h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 1.8em;
+}
+header .title-container h2 {
+    margin: 0 0 0 10px;
+    font-size: 1.2em;
 }
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 nav a.active {
-    color: #FFD700;
-    font-weight: bold;
+    background-color: #0066cc; /* Deeper blue container */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .hero {
     position: relative;
@@ -181,12 +189,12 @@ footer {
     text-align: left;
 }
 .footer-section h3 {
-    font-size: 1.3em;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 .footer-section p, .footer-section a {
     margin: 5px 0;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .footer-section a {
     color: white;
@@ -233,13 +241,13 @@ footer .copyright {
     margin-bottom: 20px;
 }
 .section-image {
-    max-width: 300px;
+    max-width: 450px;
     border-radius: 10px;
     float: right;
     margin-left: 20px;
 }
 .section-image-left {
-    max-width: 300px;
+    max-width: 500px;
     border-radius: 10px;
     float: left;
     margin-right: 20px;
@@ -424,17 +432,17 @@ footer .copyright {
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    flex-direction: column;
+    gap: 40px;
     margin-bottom: 40px;
 }
 .team-section {
     background-color: white;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
-    width: 48%;
+    width: 100%;
 }
 .team-section h2 {
     color: #1F2A44;
@@ -442,8 +450,8 @@ footer .copyright {
     margin-bottom: 15px;
 }
 .team-image {
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 800px;
+    max-height: 600px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -461,9 +469,9 @@ footer .copyright {
 }
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .team-card {
@@ -479,9 +487,9 @@ footer .copyright {
 }
 .team-photo {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 240px;
     margin-bottom: 10px;
 }
 .team-card h3 {
@@ -513,7 +521,7 @@ footer .copyright {
 }
 .alumni-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 .alumni-card {
@@ -528,10 +536,10 @@ footer .copyright {
     transform: translateY(-5px);
 }
 .alumni-photo {
-    width: 100%;
-    height: 200px;
+    width: 75%;
+    height: 320px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 210px;
     margin-bottom: 10px;
 }
 .alumni-card h3 {

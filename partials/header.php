@@ -10,7 +10,7 @@
 <header>
     <div class="logo-container">
         <img src="images/sun_badge.jpeg" alt="SUN Logo">
-        <img src="images/abc_logo.jpg" alt="ABC BlendEd Logo">
+        <img src="images/abc_badge.jpg" alt="ABC BlendEd Logo">
     </div>
     <div class="title-container">
         <h1>ABC BlendED</h1>
